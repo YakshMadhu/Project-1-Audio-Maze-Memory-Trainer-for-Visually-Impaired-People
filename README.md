@@ -4,9 +4,9 @@ The hypothetical format in which I will write my README.md document:
 
 -Problem: What's the issue that I'm trying to solve?
 
--But why?: the impact the solution will have
+-But why?: the impact the solution will have.
 
--System architecture: how different parts of the system will interact to create a functional solution to the problem I'm addressing 
+-System architecture: how different parts of the system will interact to create a functional solution to the problem I'm addressing. 
 
 -Design decisions: the reason behind choosing certain approaches and how these choices were made during the development (the inner reflection of what was going on in my mind).
 
