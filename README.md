@@ -1,6 +1,6 @@
 # Project-1-Audio-Maze-Memory-Trainer-for-Visually-Impaired-People
 
-The hypothetical format in which I will write my README.md document:
+**The hypothetical format in which I will write my README.md document:**
 
 -Problem: What's the issue that I'm trying to solve?
 
@@ -17,3 +17,5 @@ The hypothetical format in which I will write my README.md document:
 -Demo video: A short video demonstrating the core features of the final output.
 
 -Manual: step-by-step instructions for setting up and running the project locally.
+
+**Timeline (Maximum: 7 days):**
