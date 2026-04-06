@@ -18,4 +18,18 @@
 
 -Manual: step-by-step instructions for setting up and running the project locally.
 
-**Timeline (Maximum: 7 days):**
+**Timeline (Maximum: 7 days), What to complete each day:**
+
+Day 1 (**GUI window with interactive buttons**):
+
+Day 2 (**Voice interface**):
+
+Day 3 (**Random maze generator**:
+
+Day 4 (**Modify the maze generator**):
+
+Day 5 (**Refine Maze interactions**):
+
+Day 6 (**Levels of difficulty and scoring mechanisms**):
+
+Day 7 (**Final changes**): 
