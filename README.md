@@ -22,11 +22,30 @@
 
 Day 1 (**GUI window with interactive buttons**):
 
+-A simple 1920x1080 size 
+-At start, will display three interactive buttons: Human mode, AI mode, and Guide:
+    **Human mode**: User inputs the winning path using the arrow key or via specified voice command ('Left', 'Right', 'Up', 'Down') for simplicity.
+    **AI mode**: Depending on the level of difficulty chosen, it will give a random direction leading to a winning path 
+    **Guide**: Just talks about instructions, what the voice commands are, etc...
+-For GUI window I will use **tkniter**
+
 Day 2 (**Voice interface**):
+
+-This implies that since the users are mainly targeted for visually impaired people, it's better, instead of text, to use voice cues and a program that speaks 
+-Another thing it implies is that the program understands the voice commands of the person using it
+-To enable this to happen I'm thinking of using three things:
+    **For audio capture**: pyaudio
+    **for converting speech to text**: speech_recognition
+    **for converting text to speech**: pyttsx3
+  
 
 Day 3 (**Random maze generator**:
 
+-This part is simply using Python inherent builtins, after initializing **import random**
+
 Day 4 (**Modify the maze generator**):
+
+-
 
 Day 5 (**Refine Maze interactions**):
 
