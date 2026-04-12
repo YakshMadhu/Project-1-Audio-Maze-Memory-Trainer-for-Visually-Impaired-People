@@ -18,16 +18,21 @@
 
 -Manual: step-by-step instructions for setting up and running the project locally.
 
-**Timeline (Maximum: 7 days), What to complete each day:**
+**Timeline Draft for the pr(Maximum: 7 day):**
 
-Day 1 (**GUI window with interactive buttons**):
+Day 1 - GUI & Main Menu 
 
--A simple 1920x1080 size 
--At start, will display three interactive buttons: Human mode, AI mode, and Guide:
-    **Human mode**: User inputs the winning path using the arrow key or via specified voice command ('Left', 'Right', 'Up', 'Down') for simplicity.
-    **AI mode**: Depending on the level of difficulty chosen, it will give a random direction leading to a winning path 
-    **Guide**: Just talks about instructions, what the voice commands are, etc...
--For GUI window I will use **tkniter**
+- Built the initial GUI window based on Tkinter (1920 x 1080)
+- Implement the main menu system with the follow options:
+     - Start --> entry point for Human mode / AI mode selection
+     - Continue --> displays list of incompleted saved maze sessions
+     - Guide --> provides instructions and all available voice commands
+     - Shop (planned) --> placeholder for reward-based system
+     - Information (planned) --> placeholder for user performance analysis
+- Develop duration-based keypress detection system to navigate the menu
+- Integrate audio-guide system (TTS):
+     - example, "Welcome", "press any key for x seconds to select this"
+- Overall goal is to establish a navigation flow and interaction model
 
 Day 2 (**Voice interface**):
 
