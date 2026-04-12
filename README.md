@@ -23,25 +23,27 @@
 Day 1 - GUI & Main Menu 
 
 - Built the initial GUI window based on Tkinter (1920 x 1080)
-- Implement the main menu system with the follow options:
+- Implement the main menu system with the following options:
      - Start --> entry point for Human mode / AI mode selection
-     - Continue --> displays list of incompleted saved maze sessions
+     - Continue --> displays a list of incomplete saved maze sessions
      - Guide --> provides instructions and all available voice commands
      - Shop (planned) --> placeholder for reward-based system
      - Information (planned) --> placeholder for user performance analysis
-- Develop duration-based keypress detection system to navigate the menu
+- Develop a duration-based keypress detection system to navigate the menu
 - Integrate audio-guide system (TTS):
-     - example, "Welcome", "press any key for x seconds to select this"
-- Overall goal is to establish a navigation flow and interaction model
+     - example, "Welcome", "press any key for x seconds to select this."
+- The overall goal is to establish a navigation flow and interaction model
 
-Day 2 (**Voice interface**):
+Day 2 - Audio Interaction System
 
--This implies that since the users are mainly targeted for visually impaired people, it's better, instead of text, to use voice cues and a program that speaks 
--Another thing it implies is that the program understands the voice commands of the person using it
--To enable this to happen I'm thinking of using three things:
-    **For audio capture**: pyaudio
-    **for converting speech to text**: speech_recognition
-    **for converting text to speech**: pyttsx3
+- Integrate core audio libraries:
+     - PyAudio --> captures the audio
+     - SpeechRecognition --> speech-to-text (STT)
+     - pyttsx3 --> text-to-speech (TTS)
+- Implement an audio feedback system for instructions and responses
+- Develop voice command recognition:
+     - Up, Down, Left, Right, Exit
+- The overall goal is to establish a gameplay driven by audio interaction       
   
 
 Day 3 (**Random maze generator**:
