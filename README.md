@@ -46,9 +46,12 @@ Day 2 - Audio Interaction System
 - The overall goal is to establish a gameplay driven by audio interaction       
   
 
-Day 3 (**Random maze generator**:
+Day 3 - Maze / Path Generation Engine
 
--This part is simply using Python inherent builtins, after initializing **import random**
+- Design a maze as a directional sequence abstraction (list-based path)
+- Implement a random path generation algorithm using Python's random module
+- Ensure paths generated are valid and solvable
+- Introduce scaling of paths based on difficulty via variable sequence lengths
 
 Day 4 (**Modify the maze generator**):
 
