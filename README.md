@@ -63,7 +63,12 @@ Day 4 - Path Structuring & Logic:
      - user responses 
 - Develop the program's accuracy checking mechanism 
 
-Day 5 (**Refine Maze interactions**):
+Day 5 - Gameplay Interaction & Rhythm:
+
+- First, implement AI mode, and Human mode
+- Built the aduo instruction system
+- Add gaps between two steps
+- Make sure the program can recieve every input by the user
 
 Day 6 (**Levels of difficulty and scoring mechanisms**):
 
