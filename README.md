@@ -76,4 +76,9 @@ Day 5 - Gameplay Interaction & Rhythm:
 
 Day 6 (**Levels of difficulty and scoring mechanisms**):
 
+- Add difficult levels: easy, medium, hard, impssible
+- At the end display the performance
+- Add constraint so that the user know when to stop and doesn't end up going on forever
+- Apply scoring logic  
+
 Day 7 (**Final changes**): 
