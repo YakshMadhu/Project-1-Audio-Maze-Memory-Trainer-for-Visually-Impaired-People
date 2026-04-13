@@ -65,10 +65,14 @@ Day 4 - Path Structuring & Logic:
 
 Day 5 - Gameplay Interaction & Rhythm:
 
-- First, implement AI mode, and Human mode
-- Built the aduo instruction system
-- Add gaps between two steps
-- Make sure the program can recieve every input by the user
+- Implement AI Mode:
+     - system generates and speaks path (TTS)
+- Implement Human Mode:
+     - user defines a custom path before the execution 
+- Develop time-based rhythm engine:
+     - randomized delays (1-10 seconds) between two steps
+     - beep signals represent time intervals
+- Handling step-by-step input processing 
 
 Day 6 (**Levels of difficulty and scoring mechanisms**):
 
