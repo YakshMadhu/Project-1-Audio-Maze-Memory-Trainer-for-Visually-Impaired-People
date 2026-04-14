@@ -76,9 +76,14 @@ Day 5 - Gameplay Interaction & Rhythm:
 
 Day 6 (**Levels of difficulty and scoring mechanisms**):
 
-- Add difficult levels: easy, medium, hard, impssible
-- At the end display the performance
-- Add constraint so that the user know when to stop and doesn't end up going on forever
-- Apply scoring logic  
+- Implement difficulty levels:
+     - Easy, Medium, Hard, Impossible 
+- Build performance evaluation module:
+     - accuracy (correct steps)
+     - efficiency (minimal steps)
+     - completion tracking
+- Add constraints
+     - fixed step limits per maze (emphasis on efficiency)
+- Design scoring logic (foundation for reward system) 
 
 Day 7 (**Final changes**): 
