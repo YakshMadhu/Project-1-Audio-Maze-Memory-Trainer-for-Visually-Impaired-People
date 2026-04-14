@@ -18,7 +18,7 @@
 
 -Manual: step-by-step instructions for setting up and running the project locally.
 
-# **Timeline Draft for the pr(Maximum: 7 day):**
+# **Timeline (Maximum 7 days)**
 
 ## Day 1 - **GUI & Main Menu** 
 
