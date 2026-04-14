@@ -74,7 +74,7 @@ Day 5 - Gameplay Interaction & Rhythm:
      - beep signals represent time intervals
 - Handling step-by-step input processing 
 
-Day 6 (**Levels of difficulty and scoring mechanisms**):
+Day 6 - Difficulty System & Performance Evaluation:
 
 - Implement difficulty levels:
      - Easy, Medium, Hard, Impossible 
@@ -87,3 +87,9 @@ Day 6 (**Levels of difficulty and scoring mechanisms**):
 - Design scoring logic (foundation for reward system) 
 
 Day 7 (**Final changes**): 
+
+-Save incomplete maze session
+-Develop a system where user can continue from where they left off
+-Add global commands 
+-Refine the guide(menu) with all command instructions and revise the UI desgin
+-Make sure all things are applied, use test to make sure the system doesnt generate any error, and clean up the system for smoother expericne and conciseness
