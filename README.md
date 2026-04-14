@@ -18,9 +18,9 @@
 
 -Manual: step-by-step instructions for setting up and running the project locally.
 
-**Timeline Draft for the pr(Maximum: 7 day):**
+# **Timeline Draft for the pr(Maximum: 7 day):**
 
-Day 1 - GUI & Main Menu 
+## Day 1 - **GUI & Main Menu** 
 
 - Built the initial GUI window based on Tkinter (1920 x 1080)
 - Implement the main menu system with the following options:
@@ -34,7 +34,7 @@ Day 1 - GUI & Main Menu
      - example, "Welcome", "press any key for x seconds to select this."
 - The overall goal is to establish a navigation flow and interaction model
 
-Day 2 - Audio Interaction System
+## Day 2 - **Audio Interaction System**
 
 - Integrate core audio libraries:
      - PyAudio --> captures the audio
@@ -46,14 +46,14 @@ Day 2 - Audio Interaction System
 - The overall goal is to establish a gameplay driven by audio interaction       
   
 
-Day 3 - Maze / Path Generation Engine
+## Day 3 - **Maze / Path Generation Engine**
 
 - Design a maze as a directional sequence abstraction (list-based path)
 - Implement a random path generation algorithm using Python's random module
 - Ensure paths generated are valid and solvable
 - Introduce scaling of paths based on difficulty via variable sequence lengths
 
-Day 4 - Path Structuring & Logic:
+## Day 4 - **Path Structuring & Logic**
 
 - Convert the maze system into a shortest path model for efficient evaluation
 - Implement sequence validation algorithm (O(n)) to compare:
@@ -63,7 +63,7 @@ Day 4 - Path Structuring & Logic:
      - user responses 
 - Develop the program's accuracy checking mechanism 
 
-Day 5 - Gameplay Interaction & Rhythm:
+## Day 5 - **Gameplay Interaction & Rhythm**
 
 - Implement AI Mode:
      - system generates and speaks path (TTS)
@@ -74,7 +74,7 @@ Day 5 - Gameplay Interaction & Rhythm:
      - beep signals represent time intervals
 - Handling step-by-step input processing 
 
-Day 6 - Difficulty System & Performance Evaluation:
+## Day 6 - **Difficulty System & Performance Evaluation**
 
 - Implement difficulty levels:
      - Easy, Medium, Hard, Impossible 
@@ -86,10 +86,19 @@ Day 6 - Difficulty System & Performance Evaluation:
      - fixed step limits per maze (emphasis on efficiency)
 - Design scoring logic (foundation for reward system) 
 
-Day 7 (**Final changes**): 
+## Day 7 - **Persistence, Continuation, & Final Integration** 
 
--Save incomplete maze session
--Develop a system where user can continue from where they left off
--Add global commands 
--Refine the guide(menu) with all command instructions and revise the UI desgin
--Make sure all things are applied, use test to make sure the system doesnt generate any error, and clean up the system for smoother expericne and conciseness
+- Implement state persistence (serialization):
+     - to save incomplete maze sessions
+- Built a continuation system:
+     - list saved mazes
+     - provides metadata:
+            - difficulty level
+            - total steps
+            - steps completed
+       - resumes from last checkpoint (the step at which you left off)
+- Add global command handling:
+     - Exit --> interrupts the program at any stage
+     - Repeat --> retell the steps (limiting the usage to x2 times) 
+- Refine the guide(menu) with all command instructions and revise the UI design
+- Final integration, testing, and system cleanup
